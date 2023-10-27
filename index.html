@@ -20,7 +20,24 @@
       <label for="billTotal">Bill Total:</label>
       <input type="text" id="billTotal" name="billTotal" />
       <br /><br />
-      <input type="submit" value="Submit" />
+
+      <label for="tipAmount">Tip Amount:</label>
+      <input type="range" id="tipAmount" name="tipAmount" min="0" max="100" />
+      <br /><br />
+
+      <label for="tipPercentage">Tip Percentage:</label>
+      <input type="text" id="tipPercentage" name="tipPercentage" disabled />
+      <br /><br />
+
+      <label for="tipValue">Tip Value:</label>
+      <input type="text" id="tipValue" name="tipValue" disabled />
+      <br /><br />
+
+      <label for="totalBill">Total Bill with Tip:</label>
+      <input type="text" id="totalBill" name="totalBill" disabled />
+      <br /><br />
+
+      <input type="submit" value="Calculate" />
     </form>
   </body>
 </html>
